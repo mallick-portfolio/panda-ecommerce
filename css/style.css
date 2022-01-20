@@ -1,0 +1,137 @@
+/* Google Poppins Font */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,500&display=swap');
+
+body{
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  font-family: 'Poppins', sans-serif;
+  color: var(--text-primary-color);
+}
+
+:root{
+  --text-primary-color: #4E4E4E;
+  --text-secondary-color:  #1F1F1F;
+}
+
+
+
+/* ====================== */
+  /* Utilities CSS */
+/* ====================== */
+a{
+  text-decoration: none;
+}
+.cmn-btn {
+  display: inline-block;
+  padding: 12px 28px;
+  background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+  border-radius: 6px;
+  font-weight: 500;
+  line-height: 19px;
+  color: #FFFFFF;
+  transition: all .5s ease;
+}
+.cmn-btn i {
+  margin-left: 10px;
+  font-size: 24px;
+}
+.cmn-btn:hover {
+  background: linear-gradient(170.41deg, #4289FF -10.89%, #3F07F8 92.77%);
+  color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+/* ====================== */
+  /* Header Area CSS */
+/* ====================== */
+.header {
+  margin-top: 40px;
+  margin-bottom: 60px;
+}
+.header .search-form {
+  width: 25rem;
+  background-color: #F1F1F1;
+}
+.header .search-form:focus{
+  box-shadow: none;
+  border: 1px solid #CCCCCC;
+}
+.search-icon {
+  position: relative;
+  right: 30px;
+  transform: translateY(15%);
+}
+
+.header .search-form::-webkit-input-placeholder {
+  color: #CCCCCC;
+}
+.header .search-form:-moz-placeholder {
+  color: #CCCCCC;
+  opacity: 1;
+}
+.header .search-form::-moz-placeholder {
+  color: #CCCCCC;
+  opacity: 1;
+}
+.header .search-form:-ms-input-placeholder {
+  color: #CCCCCC;
+}
+.header .search-form::-ms-input-placeholder {
+  color: #CCCCCC;
+}
+.header .search-form::placeholder {
+  color: #CCCCCC;
+}
+
+/* ====================== */
+  /* Slider Area CSS */
+/* ====================== */
+.slider .slider-main {
+  background: #FEEAE9;
+  border-radius: 20px;
+  padding: 30px 0;
+}
+
+.slider-content {
+  padding-left: 60px;
+}
+.slider-content .slider-title {
+  font-weight: bold;
+  font-size: 56px;
+  line-height: 84px;
+  color: var(--text-secondary-color);
+}
+.slider-content p{
+  line-height: 26px;
+  color: var(--text-primary-color);
+}
+.slider-content .price {
+  font-weight: 500;
+  font-size: 41px;
+  line-height: 61px;
+  color: #FF136F;
+}
+.right-arrow, .left-arrow {
+  width: 50px;
+  height: 50px;
+  line-height: 2.1;
+  background: #FF136F;
+  text-align: center;
+  font-size: 24px;
+  border-radius: 50%;
+}
+.left-arrow {
+  position: relative;
+  left: 10px;
+}
+.right-arrow {
+  position: relative;
+  right: 10px;
+}
