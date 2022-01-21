@@ -270,4 +270,13 @@ ul {
 }
 .copy-right p {
   color: var(--text-primary-color);
+  margin-bottom: 0;
+}
+
+@media screen and (max-width:576px) {
+  .footer-menu ul, .footer-social ul{
+    justify-content: center;
+    margin: 7px 0;
+  }
+  
 }
