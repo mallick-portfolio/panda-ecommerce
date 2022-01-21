@@ -22,6 +22,11 @@ body{
 a{
   text-decoration: none;
 }
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
 .cmn-btn {
   display: inline-block;
   padding: 12px 28px;
@@ -41,8 +46,8 @@ a{
   background: linear-gradient(170.41deg, #4289FF -10.89%, #3F07F8 92.77%);
   color: #FFFFFF;
 }
-.cmn-margin{
-  margin: 65px 0;
+.cmn-padding{
+  padding: 65px 0;
 }
 .section-title h2 {
   font-weight: 600;
@@ -170,30 +175,99 @@ a{
 
 
 /* ====================== */
-  /* Shoes Area CSS */
+  /* Shoes /Backpack Area CSS */
 /* ====================== */
-.shoes-card{
+.shoes, .backpack {
+  background-color: #F4F4F4;
+}
+.shoes-card, .backpacks{
   border-radius: 20px;
   padding: 12px;
   box-shadow: 0px 10px 30px rgb(27 2 2 / 25%);
 }
-.sheos-title {
+.sheos-title, .backpack-title {
   font-weight: 600;
   font-size: 24px;
   line-height: 36px;
   color: var(--text-secondary-color);
 }
-.shoes-text {
+.shoes-text, .backpack-text {
   line-height: 26px;
   color: var(--text-primary-color);
 }
-.shoes-price {
+.shoes-price, .backpack-price {
   font-weight: 500;
   font-size: 24px;
   line-height: 36px;
   color: #000000;
 
 }
-.shoes-btn {
-  background-color: #000000;
+
+
+/* ====================== */
+  /* Subscribe Area CSS */
+/* ====================== */
+.subscribe .subscribe-container {
+  background: #FFF2F1;
+  padding: 120px 20px;
+  border-radius: 20px;
+}
+.subscribe-form h2 {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 45px;
+  color: var(--text-secondary-color);
+}
+.subscribe-form p{
+  font-weight: 500;
+  line-height: 24px;
+  color: var(--text-primary-color);
+}
+.subscribe-btn {
+  position: relative;
+  top: -42px;
+  border: 0;
+  left: 39%;
+}
+.subscribe-input {
+  background-color: #FFFFFF;
+}
+.subscribe-input:focus{
+  box-shadow: none;
+  border: 1px solid #CCCCCC;
+}
+
+/* ====================== */
+  /* Footer Area CSS */
+/* ====================== */
+.footer-menu ul, .footer-social ul {
+  display: flex;
+  align-items: center;
+}
+.footer-menu ul li, .footer-social ul li {
+  margin: 0 10px;
+  
+}
+.footer-menu ul li a {
+  display: inline-block;
+  color: var(--text-secondary-color);
+}
+.footer-social ul li a i {
+  width: 50px;
+  height: 50px;
+  background: linear-gradient(180deg, #FF589B -0.01%, #FF136F 99.99%);
+  line-height: 2;
+  border-radius: 50%;
+  text-align: center;
+  font-size: 24px;
+  color: #FFFFFF;
+}
+.footer-social ul li a i:hover{
+  background: linear-gradient(170.41deg, #4289FF -10.89%, #3F07F8 92.77%);
+}
+.copy-right{
+  background: #FFF2F1;
+}
+.copy-right p {
+  color: var(--text-primary-color);
 }
